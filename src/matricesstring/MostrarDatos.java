@@ -138,36 +138,27 @@ public class MostrarDatos extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(37, 37, 37)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(89, 89, 89)
-                                .addComponent(jButton1)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jButton2)
-                                .addGap(74, 74, 74)))
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 406, Short.MAX_VALUE))
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton1)
+                            .addComponent(jButton2)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(37, 37, 37)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -177,61 +168,61 @@ public class MostrarDatos extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane4)
-                            .addComponent(jScrollPane5)
-                            .addComponent(jScrollPane6)
-                            .addComponent(jScrollPane7))))
-                .addGap(23, 23, 23))
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE)
+                                    .addComponent(jScrollPane6))
+                                .addGap(105, 105, 105))))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(76, 76, 76)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(15, 15, 15)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(9, 9, 9)
+                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton2))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(25, 25, 25)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jButton1))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton2))))
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel1)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jLabel4)
-                                    .addComponent(jLabel5))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(5, 5, 5)
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(39, 39, 39)
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE)
+                    .addComponent(jScrollPane5)
+                    .addComponent(jScrollPane4)
+                    .addComponent(jScrollPane7))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         pack();
@@ -280,30 +271,111 @@ public class MostrarDatos extends javax.swing.JFrame {
             
             
             for(int i=0; i<=4; i++){
-                    int tot1,tot2,tot3,tot4,tot5;
+                    double tot1,tot2,tot3,tot4,tot5;
                     if(Deps[i]==1){
                         
-                        txtB1.setText(txtB1.getText()+"\n"+M[0][i]+"   "+M[1][i]+"   "+M[2][i]+"   "+M[3][i]+"   20,000");
-                        tot1=(Integer.parseInt(M[1][i]))-(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+20000;
-                        txtB1.setText(txtB1.getText()+"\nTOTAL LIQUIDO:  "+tot1+"\n\n");
+                        txtB1.setText(txtB1.getText()+"\n NOMBRE:\t"+M[0][i]+"\n (+)SUELDO BASE:\t"+M[1][i]+"\n (+)DEDUCCIONES \t   "+M[2][i]+"\n(+)TOTAL PP\t "+M[3][i]+"\n(+)DEPARTAMENTO:\t 20,000");
+                        
+                        int sld = Integer.parseInt(M[1][i]);
+                        double iggs = (Integer.parseInt(M[1][i]))*(0.0483);
+                        
+                        double ISR;
+                        if(sld>2600 && sld<5000){
+                            ISR = sld*0.03;
+                        }else{
+                            if(sld>5000 && sld<10000){
+                                ISR = sld*0.05;
+                            }else{
+                                ISR = sld*0.10;
+                            }
+                        }
+                        
+                        txtB1.setText(txtB1.getText()+"\n(-)ISR:  "+ISR+"");txtB1.setText(txtB1.getText()+"\n(-)IGGS:  "+iggs);
+                        
+                        tot1=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+20000-ISR-iggs;
+                        txtB1.setText(txtB1.getText()+"\nTOTAL LIQUIDO:  "+tot1+"\n");
                     }else{
                         if(Deps[i]==2){
-                            txtB2.setText(txtB2.getText()+"\n"+M[0][i]+"   "+M[1][i]+"   "+M[2][i]+"   "+M[3][i]+"   30,000");
-                            tot2=(Integer.parseInt(M[1][i]))-(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+30000;
-                            txtB2.setText(txtB2.getText()+"\nTOTAL LIQUIDO:  "+tot2+"\n\n");
+                            txtB2.setText(txtB2.getText()+"\n NOMBRE:\t"+M[0][i]+"\n (+)SUELDO BASE:\t"+M[1][i]+"\n (+)DEDUCCIONES \t   "+M[2][i]+"\n(+)TOTAL PP\t "+M[3][i]+"\n(+)DEPARTAMENTO:\t 30,000");
+                            
+                            int sld = Integer.parseInt(M[1][i]);
+                            double iggs = (Integer.parseInt(M[1][i]))*(0.0483);
+                            double ISR;
+                           if(sld>2600 && sld<5000){
+                              ISR = sld*0.03;
+                           }else{
+                                if(sld>5000 && sld<10000){
+                                    ISR = sld*0.05;
+                             }else{
+                                   ISR = sld*0.10;
+                              }
+                             }
+                           
+                                txtB2.setText(txtB2.getText()+"\nISR:  "+ISR+"\n");txtB2.setText(txtB2.getText()+"\nIGGS:  "+iggs+"\n");
+                                tot2=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+30000-ISR-iggs;
+                            txtB2.setText(txtB2.getText()+"\nTOTAL LIQUIDO:  "+tot2+"\n");
                         }else{
                             if(Deps[i]==3){
-                                txtB3.setText(txtB3.getText()+"\n"+M[0][i]+"   "+M[1][i]+"   "+M[2][i]+"   "+M[3][i]+"   10,000");
-                                tot3=(Integer.parseInt(M[1][i]))-(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+10000;
-                                txtB3.setText(txtB3.getText()+"\nTOTAL LIQUIDO:  "+tot3+"\n\n");
+                                txtB3.setText(txtB3.getText()+"\n NOMBRE:\t"+M[0][i]+"\n (+)SUELDO BASE:\t"+M[1][i]+"\n (+)DEDUCCIONES \t   "+M[2][i]+"\n(+)TOTAL PP\t "+M[3][i]+"\n(+)DEPARTAMENTO:\t 10,000");
+                                
+                                    int sld = Integer.parseInt(M[1][i]);
+                                    double iggs = (Integer.parseInt(M[1][i]))*(0.0483);
+                                    
+                                    double ISR;
+                                   if(sld>2600 && sld<5000){
+                                      ISR = sld*0.03;
+                                   }else{
+                                        if(sld>5000 && sld<10000){
+                                            ISR = sld*0.05;
+                                     }else{
+                                           ISR = sld*0.10;
+                                      }
+                                     }
+                                   
+                                txtB3.setText(txtB3.getText()+"\nISR:  "+ISR+"\n");txtB3.setText(txtB3.getText()+"\nIGGS:  "+iggs+"\n");
+                                tot3=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+10000-ISR-iggs;
+                                txtB3.setText(txtB3.getText()+"\nTOTAL LIQUIDO:  "+tot3+"\n");
+                                
                             }else{
                                 if(Deps[i]==4){
-                                    txtB4.setText(txtB4.getText()+"\n"+M[0][i]+"   "+M[1][i]+"   "+M[2][i]+"   "+M[3][i]+"   15,000");
-                                    tot4=(Integer.parseInt(M[1][i]))-(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+15000;
+                                    txtB4.setText(txtB4.getText()+"\n NOMBRE:\t"+M[0][i]+"\n (+)SUELDO BASE:\t"+M[1][i]+"\n (+)DEDUCCIONES \t   "+M[2][i]+"\n(+)TOTAL PP\t "+M[3][i]+"\n(+)DEPARTAMENTO:\t 15,000");
+                                    
+                                        int sld = Integer.parseInt(M[1][i]);
+                                        double iggs = (Integer.parseInt(M[1][i]))*(0.0483);
+
+                                        double ISR;
+                                       if(sld>2600 && sld<5000){
+                                          ISR = sld*0.03;
+                                       }else{
+                                            if(sld>5000 && sld<10000){
+                                                ISR = sld*0.05;
+                                         }else{
+                                               ISR = sld*0.10;
+                                          }
+                                         }
+
+                                    txtB4.setText(txtB4.getText()+"\nISR:  "+ISR+"\n");txtB4.setText(txtB4.getText()+"\nIGGS:  "+iggs+"\n");
+                                     tot4=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+15000-ISR-iggs;
                                     txtB4.setText(txtB4.getText()+"\nTOTAL LIQUIDO:  "+tot4+"\n\n");
                                 }else{
-                                    txtB5.setText(txtB5.getText()+"\n"+M[0][i]+"   "+M[1][i]+"   "+M[2][i]+"   "+M[3][i]+"   25,000");
-                                    tot5=(Integer.parseInt(M[1][i]))-(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+25000;
+                                    txtB5.setText(txtB5.getText()+"\n NOMBRE:\t"+M[0][i]+"\n (+)SUELDO BASE:\t"+M[1][i]+"\n (+)DEDUCCIONES \t   "+M[2][i]+"\n(+)TOTAL PP\t "+M[3][i]+"\n(+)DEPARTAMENTO:\t 25,000");
+                                    
+                                    int sld = Integer.parseInt(M[1][i]);
+                                        double iggs = (Integer.parseInt(M[1][i]))*(0.0483);
+
+                                        double ISR;
+                                       if(sld>2600 && sld<5000){
+                                          ISR = sld*0.03;
+                                       }else{
+                                            if(sld>5000 && sld<10000){
+                                                ISR = sld*0.05;
+                                         }else{
+                                               ISR = sld*0.10;
+                                          }
+                                         }
+
+                                    txtB5.setText(txtB5.getText()+"\nISR:  "+ISR+"\n");txtB5.setText(txtB5.getText()+"\nIGGS:  "+iggs+"\n");
+                                    tot5=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+25000-ISR-iggs;
                                     txtB5.setText(txtB5.getText()+"\nTOTAL LIQUIDO:  "+tot5+"\n\n");
                                 }
                             }

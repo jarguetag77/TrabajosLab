@@ -18,6 +18,8 @@ public class MostrarDatos extends javax.swing.JFrame {
      */
     public MostrarDatos() {
         initComponents();
+        
+        //pruebaCAMBIO
         jButton2.setVisible(false);
         txtB1.setVisible(false);
         txtB2.setVisible(false);

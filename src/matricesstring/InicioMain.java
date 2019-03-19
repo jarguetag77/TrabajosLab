@@ -98,7 +98,7 @@ public class InicioMain extends javax.swing.JFrame {
     try{
         
         String query = "SELECT * FROM `UserLogin` WHERE Usuario=? and Contra=?";
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/MyDB1","root","");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/MyDB1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","");
         pst = con.prepareStatement(query);
         pst.setString(1,TFusuario.getText());
         pst.setString(2,TFpassw.getText());

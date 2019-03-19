@@ -334,7 +334,7 @@ public class MostrarDatos extends javax.swing.JFrame {
                                            ISR = sld*0.10;
                                       }
                                      }
-                                   
+                                     
                                 txtB3.setText(txtB3.getText()+"\nISR:  "+ISR+"\n");txtB3.setText(txtB3.getText()+"\nIGGS:  "+iggs+"\n");
                                 tot3=(Integer.parseInt(M[1][i]))+(Integer.parseInt(M[2][i]))+(Integer.parseInt(M[3][i]))+10000-ISR-iggs;
                                 txtB3.setText(txtB3.getText()+"\nTOTAL LIQUIDO:  "+tot3+"\n");
